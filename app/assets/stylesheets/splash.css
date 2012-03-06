@@ -1,0 +1,16 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+}
+
+.headline h1 {
+	margin-bottom: 0px;
+}
+
+.headline {
+	float: right;
+	margin-right: 15px;
+	margin-top: 50px;
+}
