@@ -1,5 +1,7 @@
 Placeholder::Application.routes.draw do
-  
+  # Google verify.
+  match '/google969a88e443ad9047.html', 
+        :to => proc { |env| [200, {}, ["google-site-verification: google969a88e443ad9047.html"]] }  
 
   resources :inquiries
 
