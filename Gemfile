@@ -16,6 +16,7 @@ group :production do
 	gem 'thin'
 end
 
+gem 'activeadmin'
 
 
 # Gems used only for assets and not required

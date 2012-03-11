@@ -1,4 +1,8 @@
 Placeholder::Application.routes.draw do
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
   # Google verify.
   match '/google969a88e443ad9047.html', 
         :to => proc { |env| [200, {}, ["google-site-verification: google969a88e443ad9047.html"]] }  
